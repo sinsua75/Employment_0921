@@ -237,7 +237,7 @@ def save_memos(memos):
 # 2. TAB CONTENT FUNCTIONS
 # ==============================================================================
 def run_survey_page():
-    st.subheader("5.설문 ✍️")
+    st.subheader("설문 ✍️")
     st.markdown("아래 **15문항** 설문에 답해주세요!")
 
     q1 = st.radio("1️⃣ 기후변화가 내 직업에 영향을 줄 것 같나요?", ["전혀 아니다", "조금 그렇다", "매우 그렇다"])
